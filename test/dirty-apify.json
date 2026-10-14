@@ -1,0 +1,192 @@
+[
+ {
+  "full_name": "Jane Doe",
+  "job_title": "Co-Founder & CTO",
+  "company_name": "Jasper",
+  "company_website": "https://www.jasper.ai",
+  "industry": "computer software",
+  "company_size": "201-500",
+  "keywords": [
+   "generative ai",
+   "marketing",
+   "content"
+  ]
+ },
+ {
+  "full_name": "Bob Smith",
+  "job_title": "Owner",
+  "company_name": "Smith Plumbing LLC",
+  "company_website": "smithplumbing.com",
+  "industry": "construction",
+  "company_size": "11-50",
+  "keywords": [
+   "plumbing",
+   "repairs"
+  ]
+ },
+ {
+  "full_name": "Alice Wong",
+  "job_title": "Machine Learning Intern",
+  "company_name": "Tome",
+  "company_website": "tome.app",
+  "industry": "computer software",
+  "company_size": "51-200",
+  "keywords": [
+   "ai presentations"
+  ]
+ },
+ {
+  "full_name": "Sam K",
+  "job_title": "Head of AI",
+  "company_name": "OpenAI",
+  "company_website": "openai.com",
+  "industry": "research",
+  "company_size": "1001-5000"
+ },
+ {
+  "full_name": "Li Wei",
+  "job_title": "Engineering Manager",
+  "company_name": "ByteDance",
+  "company_website": "bytedance.com",
+  "company_size": "10001+",
+  "keywords": [
+   "ai"
+  ]
+ },
+ {
+  "full_name": "Prof. Ivanov",
+  "job_title": "Head of AI Lab",
+  "company_name": "MIT CSAIL",
+  "company_website": "csail.mit.edu",
+  "industry": "higher education"
+ },
+ {
+  "full_name": "Mark Lee",
+  "job_title": "Partner",
+  "company_name": "Lee & Partners Law",
+  "company_website": "leelaw.com",
+  "industry": "legal services",
+  "company_size": "11-50",
+  "keywords": [
+   "corporate law",
+   "ai compliance"
+  ]
+ },
+ {
+  "full_name": "Tom Ray",
+  "job_title": "CEO",
+  "company_name": "Voiceflow",
+  "company_website": "voiceflow.com",
+  "industry": "computer software",
+  "company_size": "51-200",
+  "keywords": [
+   "conversational ai",
+   "chatbot builder",
+   "ai agents"
+  ]
+ },
+ {
+  "full_name": "Ann Bell",
+  "job_title": "Founder",
+  "company_name": "Bell Digital Marketing",
+  "company_website": "belldigital.co",
+  "industry": "marketing & advertising",
+  "company_size": "2-10",
+  "keywords": [
+   "seo",
+   "social media",
+   "ppc"
+  ]
+ },
+ {
+  "full_name": "Max P",
+  "job_title": "CTO",
+  "company_name": "OpenRouter",
+  "company_website": "openrouter.ai",
+  "keywords": [
+   "llm api"
+  ]
+ },
+ {
+  "full_name": "Olga S",
+  "job_title": "Founder",
+  "company_name": "AI Forge Studio",
+  "company_website": "aiforge.dev",
+  "industry": "it services",
+  "company_size": "11-50",
+  "keywords": [
+   "custom llm development",
+   "rag",
+   "chatbots for clients"
+  ]
+ },
+ {
+  "full_name": "Pete N",
+  "job_title": "Talent Acquisition Partner",
+  "company_name": "Writesonic",
+  "company_website": "writesonic.com",
+  "keywords": [
+   "ai writer"
+  ]
+ },
+ {
+  "full_name": "Nobody",
+  "job_title": "Manager",
+  "company_name": "Acme Holdings"
+ },
+ {
+  "full_name": "Kate R",
+  "job_title": "Owner",
+  "company_name": "Kate's Bakery",
+  "company_website": "katesbakery.com",
+  "industry": "food & beverages",
+  "company_size": "2-10"
+ },
+ {
+  "full_name": "Dan F",
+  "job_title": "VP Engineering",
+  "company_name": "ShopAI",
+  "company_website": "shopai.io",
+  "industry": "e-commerce",
+  "company_size": "11-50",
+  "keywords": [
+   "ai product descriptions",
+   "shopify app"
+  ]
+ },
+ {
+  "full_name": "Eve G",
+  "job_title": "Director",
+  "company_name": "Lambda GPU Cloud",
+  "company_website": "lambdalabs.com",
+  "industry": "cloud computing",
+  "keywords": [
+   "gpu cloud",
+   "inference hosting"
+  ]
+ },
+ {
+  "full_name": "Ian H",
+  "job_title": "CEO",
+  "company_name": "Nimbus Consulting",
+  "company_website": "nimbusconsulting.biz",
+  "industry": "management consulting",
+  "company_size": "11-50",
+  "keywords": [
+   "strategy",
+   "change management"
+  ]
+ },
+ {
+  "full_name": "Rita M",
+  "job_title": "Founder",
+  "company_name": "Synthwave Media",
+  "company_website": "synthwave.media",
+  "industry": "online media",
+  "company_size": "2-10",
+  "keywords": [
+   "ai-generated video",
+   "youtube automation"
+  ]
+ }
+]

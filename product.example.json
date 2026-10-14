@@ -1,0 +1,83 @@
+{
+  "name": "AcmeRouter",
+  "wordmark": { "accent": "Acme", "rest": "Router" },
+  "siteUrl": "https://example.com",
+  "ctaPath": "/models/",
+  "pitch": {
+    "en": "AcmeRouter is an OpenAI-compatible API gateway: one key for GPT, Claude, Gemini and other models, priced below vendor list prices. Switching means changing base_url and the key.",
+    "ru": "AcmeRouter — OpenAI-совместимый API-шлюз: один ключ на GPT, Claude, Gemini и другие модели, цены ниже официальных цен вендоров. Подключение — сменить base_url и ключ."
+  },
+  "facts": {
+    "en": [
+      "OpenAI-compatible API: switching = set base_url to https://api.example.com/v1 and swap the key; the rest of the code stays.",
+      "One key and one balance for GPT, Claude, Gemini and dozens more models.",
+      "Prices below vendor list prices; exact numbers only from the price table in the brief.",
+      "Pay as you go, no subscription.",
+      "Every API response includes the request cost (usage.cost).",
+      "If a model's provider goes down, the request fails over to a backup provider automatically.",
+      "New accounts get $1 of free credit for testing."
+    ],
+    "ru": [
+      "OpenAI-совместимый API: подключение = заменить base_url на https://api.example.com/v1 и ключ, остальной код не меняется.",
+      "Один ключ и один баланс на GPT, Claude, Gemini и ещё десятки моделей.",
+      "Цены ниже официальных цен вендоров; конкретные цифры — только из таблицы цен в брифе.",
+      "Без подписки, платите только за токены.",
+      "Каждый ответ API возвращает стоимость запроса (usage.cost).",
+      "Если поставщик модели лёг, запрос автоматически уходит к резервному.",
+      "Новым аккаунтам — $1 на тест."
+    ]
+  },
+  "forbidden": {
+    "en": ["Invented customers, case studies, SLAs or uptime numbers", "Discounts beyond the price table or custom terms"],
+    "ru": ["Выдуманные клиенты, кейсы, SLA, аптайм", "Скидки сверх таблицы и персональные условия"]
+  },
+  "angles": {
+    "en": ["savings on tokens", "one endpoint for the models they need", "automatic failover to a backup provider", "usage.cost for spend tracking"],
+    "ru": ["экономия на токенах", "одна точка доступа к нужным им моделям", "резервный поставщик при падении", "usage.cost для учёта расходов"]
+  },
+  "psHook": {
+    "en": "$1 of free test credit, or a simple yes/no question",
+    "ru": "$1 на тест или простой вопрос, на который легко ответить «да/нет»"
+  },
+  "snippet": {
+    "code": "client = OpenAI(\n  base_url=\"https://api.example.com/v1\",\n  api_key=\"...\")",
+    "title": { "en": "Switching is a base_url change", "ru": "Подключение — сменить base_url" },
+    "note": { "en": "The OpenAI SDK, LangChain, LiteLLM and the rest keep working unchanged.", "ru": "SDK OpenAI, LangChain, LiteLLM и всё остальное продолжают работать как есть." }
+  },
+  "pricing": {
+    "catalogUrl": "https://api.example.com/v1/models/public",
+    "defaults": {
+      "ai_product": ["claude-sonnet-5.5", "gpt-5.4", "gemini-3-flash"],
+      "dev_studio": ["claude-sonnet-5.5", "gpt-5.4", "gemini-3.1-pro"],
+      "saas_with_ai": ["gpt-5.4-mini", "claude-sonnet-5.5", "gemini-3-flash"],
+      "ecommerce": ["gpt-5.4-mini", "gemini-3-flash", "claude-haiku-5.5"],
+      "media_content": ["gpt-5.4", "claude-sonnet-5.5", "gemini-3-flash"],
+      "enterprise": ["gpt-5.4", "claude-opus-5.5", "gemini-3.1-pro"],
+      "other": ["gpt-5.4-mini", "claude-sonnet-5.5", "gemini-3-flash"]
+    }
+  },
+  "triage": {
+    "keep": [
+      "products with AI inside: AI SaaS, chatbots, assistants, agents, content/image/video generation, AI search, LLM analytics",
+      "dev studios and integrators building AI projects for clients",
+      "SaaS, e-commerce or media with explicit AI features"
+    ],
+    "drop": [
+      "offline businesses and services without software (construction, medical, legal, restaurants, real estate, retail without AI)",
+      "consulting or marketing agencies without their own engineering",
+      "model aggregators and providers themselves (competitors), GPU hosting",
+      "enterprises and corporations, government, universities, nonprofits",
+      "empty records where you cannot tell what the company does"
+    ]
+  },
+  "competitorDomains": ["openrouter.ai", "requesty.ai", "portkey.ai", "litellm.ai", "edenai.co", "unify.ai", "martian.com", "aimlapi.com"],
+  "github": { "queries": ["\"openrouter.ai/api/v1\""] },
+  "apify": {
+    "titles": ["Founder", "Co-Founder", "CEO", "CTO", "Head of AI", "Head of Engineering", "VP Engineering", "Machine Learning Lead"],
+    "keywords": ["generative ai", "llm", "ai assistant", "chatbot", "ai agents", "conversational ai", "ai saas", "gpt"]
+  },
+  "whyContacted": {
+    "github": { "en": "your public repository calls an LLM API through a reseller.", "ru": "в вашем открытом репозитории используется API языковых моделей через посредника." },
+    "default": { "en": "your company works with AI and we thought this might help.", "ru": "ваша компания работает с ИИ, и нам показалось, что это может быть полезно." }
+  }
+}

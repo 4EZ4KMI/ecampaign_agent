@@ -1,0 +1,25 @@
+{
+  "name": "ecampaign",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cold-outreach agent: lead discovery → junk filter → website research → personal HTML proposal → human review → SMTP",
+  "scripts": {
+    "cli": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "install-skills": "bash scripts/install-skills.sh"
+  },
+  "dependencies": {
+    "better-sqlite3": "12",
+    "dotenv": "16",
+    "nodemailer": "7",
+    "zod": "3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "20",
+    "@types/nodemailer": "^8.0.2",
+    "tsx": "^4.23.15",
+    "typescript": "5"
+  }
+}
